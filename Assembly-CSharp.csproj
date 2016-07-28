@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{76393F34-68B0-8958-9FC1-3A25A4A84DE1}</ProjectGuid>
+    <ProjectGuid>{D5D91CC0-7239-00A6-76AC-9A1765DE518C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -50,9 +50,9 @@
      <Compile Include="Assets\Scripts\Portes.cs" />
      <Compile Include="Assets\Scripts\Reset.cs" />
      <Compile Include="Assets\Scripts\SonPortes.cs" />
-     <Compile Include="Assets\Scripts\doorsLeft.cs" />
-     <Compile Include="Assets\Scripts\doorsRight.cs" />
+     <Compile Include="Assets\Scripts\movieTexture.cs" />
      <Compile Include="Assets\Scripts\noise.cs" />
+     <Compile Include="Assets\Scripts\noise_low.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
@@ -67,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{982762B0-8006-4A7B-3B2F-F0EDB2680930}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{721E55F2-EDA8-70AC-6306-F7E6F62F7B43}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

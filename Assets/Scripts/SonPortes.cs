@@ -5,7 +5,7 @@ using System.Collections;
 
 public class SonPortes : MonoBehaviour {
 
-	private AudioSource audio;
+	private new AudioSource audio;
 	public AudioClip[] doors;
 
 	// Use this for initialization
