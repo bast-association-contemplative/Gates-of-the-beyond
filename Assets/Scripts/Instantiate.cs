@@ -8,18 +8,15 @@ public class Instantiate : MonoBehaviour {
 
 	private bool canShoot = true;
 
-	void Start () {
+	void Start () {}
 	
-	}
-	
-	// Update is called once per frame
 	void Update () {
 		if (transform.rotation.y > 0.5 && canShoot == true) {
 			Instantiate (ghost, shotPos.position, ghost.transform.rotation);
 			canShoot = false;
 		}
 
-		if (Input.GetKeyUp (KeyCode.LeftArrow)) {
+		if (transform.rotation.y < 0.1) {
 			canShoot = true;
 		}
 	}
