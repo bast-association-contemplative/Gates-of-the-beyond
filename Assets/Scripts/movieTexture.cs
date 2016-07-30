@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
+
 public class movieTexture : MonoBehaviour {
+
+	public AudioClip[] ghostSound;
+	new AudioSource audio;
 
 	private new Renderer renderer;
 	public MovieTexture[] movTexture;
@@ -16,11 +21,10 @@ public class movieTexture : MonoBehaviour {
 
 		movTexture[RandomGhost].Stop();
 		movTexture[RandomGhost].Play();
-	}
 
-	/*void Update(){
-		if (movTexture.isPlaying) {
-			movTexture[RandomGhost].Stop();
-		}
-	}*/
+		audio = GetComponent<AudioSource>();
+
+		audio.clip = ghostSound[Random.Range(0, ghostSound.Length)];
+		audio.Play();
+	}
 }

@@ -12,7 +12,6 @@ public class Portes : MonoBehaviour {
 	private bool canShoot = true;
 
 	void Start () {
-	
 	}
 	
 	void Update() {
@@ -21,8 +20,8 @@ public class Portes : MonoBehaviour {
 		transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
 
 		if (transform.rotation.y > 0.5 && canShoot == true) {
-			//Debug.Log ("GO");
-			Instantiate (ghost, shotPos.position, ghost.transform.rotation);
+
+			//Instantiate (ghost, shotPos.position, ghost.transform.rotation);
 			canShoot = false;
 		}
 

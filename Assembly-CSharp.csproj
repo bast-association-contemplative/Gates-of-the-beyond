@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Destroy.cs" />
      <Compile Include="Assets\Scripts\Ghost.cs" />
+     <Compile Include="Assets\Scripts\Instantiate.cs" />
      <Compile Include="Assets\Scripts\Portes.cs" />
      <Compile Include="Assets\Scripts\Reset.cs" />
      <Compile Include="Assets\Scripts\SonPortes.cs" />

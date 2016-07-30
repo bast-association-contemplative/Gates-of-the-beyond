@@ -32,8 +32,8 @@ public class Ghost : MonoBehaviour {
 				transform.rotation = Quaternion.Slerp (transform.rotation, target, Time.deltaTime);
 
 
-				Rigidbody shot = Instantiate (projectile, shotPos.position, shotPos.rotation) as Rigidbody;
-				shot.AddForce (shotPos.forward * shotForce);
+				//Rigidbody shot = Instantiate (projectile, shotPos.position, shotPos.rotation) as Rigidbody;
+				//shot.AddForce (shotPos.forward * shotForce);
 
 				//lastShot = Time.time;
 			//}
