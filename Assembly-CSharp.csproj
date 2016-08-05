@@ -46,14 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Destroy.cs" />
-     <Compile Include="Assets\Scripts\Ghost.cs" />
      <Compile Include="Assets\Scripts\Instantiate.cs" />
+     <Compile Include="Assets\Scripts\Noise.cs" />
      <Compile Include="Assets\Scripts\Portes.cs" />
      <Compile Include="Assets\Scripts\Reset.cs" />
      <Compile Include="Assets\Scripts\SonPortes.cs" />
      <Compile Include="Assets\Scripts\movieTexture.cs" />
-     <Compile Include="Assets\Scripts\noise.cs" />
-     <Compile Include="Assets\Scripts\noise_low.cs" />
      <Compile Include="Assets\Scripts\randomDoor.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />

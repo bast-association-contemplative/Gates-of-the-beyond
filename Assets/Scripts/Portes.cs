@@ -20,8 +20,6 @@ public class Portes : MonoBehaviour {
 
 			float tiltAroundY = door * tiltAngle;
 
-			Debug.Log (Input.GetAxis ("Horizontal"));
-
 			Quaternion target = Quaternion.Euler(0, tiltAroundY * 3.2f, 0);
 			transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
 		}
@@ -36,7 +34,6 @@ public class Portes : MonoBehaviour {
 	}
 
 	float map(float s, float a1, float a2, float b1, float b2){
-
 		return b1 + (s-a1)*(b2-b1)/(a2-a1);
 	}
 }

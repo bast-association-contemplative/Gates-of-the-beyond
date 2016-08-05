@@ -19,9 +19,6 @@ public class randomDoor : MonoBehaviour {
 
 			openDoor = Random.Range (0, 2);
 
-			//Debug.Log (openDoor);
-
-
 			if (openDoor == 0) {
 				porteDroite1.GetComponent<Portes> ().canOpen = false;
 				porteGauche1.GetComponent<Portes> ().canOpen = false;

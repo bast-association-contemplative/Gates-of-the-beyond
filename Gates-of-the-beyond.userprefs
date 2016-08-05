@@ -1,10 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/randomDoor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SonPortes.cs">
     <Files>
-      <File FileName="Assets/Scripts/randomDoor.cs" Line="18" Column="21" />
-      <File FileName="Assets/Scripts/Portes.cs" Line="17" Column="3" />
-      <File FileName="Assets/Scripts/SonPortes.cs" Line="28" Column="23" />
+      <File FileName="Assets/Scripts/SonPortes.cs" Line="14" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
