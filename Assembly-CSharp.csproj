@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\movieTexture.cs" />
      <Compile Include="Assets\Scripts\noise.cs" />
      <Compile Include="Assets\Scripts\noise_low.cs" />
+     <Compile Include="Assets\Scripts\randomDoor.cs" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
