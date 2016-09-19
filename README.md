@@ -19,5 +19,5 @@ With ghost's design elaborated by the participants of a 2 days workshop at the B
 
 ###### Gates of the  Beyond Gallery
 
-![Gates of the Beyond](Rreadme-assets/gates_of_the_beyond.jpg)
-![Gates of the Beyond](Rreadme-assets/gates_trigger.jpg)
+![Gates of the Beyond](readme-assets/gates_of_the_beyond.jpg)
+![Gates of the Beyond](readme-assets/gates_trigger.jpg)
